@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* navbar */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background: transparent;
+    /* padding: 10px 20px; */
+    padding: 20px 50px;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.navbar-nav {
+    font-size: 1.2rem;
+}
+
+/* hero header */
+.hero-video {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.hero-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+/* meet your instructor */
+.instructor-section {
+    position: relative;
+    height: 100vh;
+    padding: 100px;
+    background: url('section-2-bg.png') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instructor-image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    height: 300px; 
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 2;
+    left: 15%;
+}
+
+.instructor-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.instructor-info {
+    position: relative;
+    padding: 65px 30px;
+    padding-left: 250px;
+    height: 400px;
+    width: 1000px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    margin-left: 180px;
+    z-index: 1;
+    border: 1px solid black;
+    font-size: 1.3rem;
+}
+
+.myi {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+@media (max-width: 1287px) {
+    .instructor-section {
+        padding: 50px 20px;
+        height: auto;
+        text-align: center; /* Center the text */
+    }
+    .instructor-image {
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: -100px; /* Adjusted to overlap more prominently */
+        width: 250px; /* Increased size */
+        height: 250px; /* Increased size */
+    }
+    .instructor-info {
+        padding: 120px 20px 50px 20px; /* Increased top padding for the larger image */
+        margin-left: 0;
+        width: auto;
+        height: 450px;
+        text-align: center; /* Center the text */
+        max-width: 90vw; /* Ensure it doesn't exceed the viewport width */
+    }
+}
+
+@media (max-width: 768px) {
+    .instructor-section {
+        padding: 20px;
+        height: auto;
+    }
+
+    .instructor-image {
+        position: relative;
+        top: auto;
+        transform: none;
+        width: 250px;
+        height: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: -100px;
+    }
+
+    .instructor-info {
+        padding: 20px;
+        padding-top: 120px;
+        height: auto;
+        width: auto;
+        margin: 0;
+        border-radius: 15px;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 999px) and (max-width: 1241px) {
+    .instructor-section {
+        padding: 50px 20px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .instructor-image {
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: -50px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .instructor-info {
+        padding: 100px 20px 50px 20px;
+        margin-left: 0;
+        width: auto;
+        height: auto;
+        text-align: center;
+        max-width: 80vw;
+    }
+}
+
+
+/* introduction */
+.introduction {
+    background-color: #B6D8F2;
+    color: white;
+    padding: 50px 0;
+}
+@media (max-width: 768px) {
+    .introduction .superhero {
+        display: none;
+    }
+}
+.introduction .superhero {
+    height: 600px;
+}
+.section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-btn {
+    margin-left: 10px;
+}
+#typing-text {
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin: 0;
+}
+#superhero-name {
+    border-right: .15em solid orange;
+    padding-right: 3px;
+    font-weight: bold;
+}
+@keyframes typing {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
+/* type of classes */
+/* .section {
+    background-color: #00489D;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.btn {
+    margin: 10px;
+}
+.type-img {
+    height: 450px;
+    border-radius: 20px;
+}
+.type-content {
+    padding: 50px;
+}
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-img {
+    width: 80px;
+}
+.type-cards .card-text {
+    padding: 20px 10px;
+}
+.section .btn {
+    background-color: #B6D8F2;
+}
+.section .btn:hover {
+    background-color: #5eb1f1;
+}
+.active-btn {
+    background-color: #0077ff !important;
+} */

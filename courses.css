@@ -1,0 +1,23 @@
+* {
+    font-family: "Inter", sans-serif;
+    scrollbar-width: none;
+    overflow: hidden;
+}   
+
+.navbar {
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.content-section {
+    padding: 50px 0;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.list-group {
+    padding: 10px 0 20px 0;
+}
