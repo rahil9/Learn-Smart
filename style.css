@@ -272,7 +272,7 @@ body {
 .responsive-iframe-container {
     position: relative;
     overflow: hidden;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    padding-top: 56.25%;
 }
 
 .responsive-iframe-container iframe {
@@ -284,21 +284,20 @@ body {
     border: 0;
 }
 
-/* Media Queries for different screen sizes */
 @media (max-width: 1200px) {
     .responsive-iframe-container {
-        padding-top: 75%; /* Adjust aspect ratio for smaller screens */
+        padding-top: 75%; 
     }
 }
 
 @media (max-width: 768px) {
     .responsive-iframe-container {
-        padding-top: 100%; /* Adjust aspect ratio for tablets */
+        padding-top: 100%; 
     }
 }
 
 @media (max-width: 480px) {
     .responsive-iframe-container {
-        padding-top: 125%; /* Adjust aspect ratio for mobile phones */
+        padding-top: 125%;
     }
 }
