@@ -20,17 +20,9 @@ At Learn Smart, we believe that a strong foundation in phonics is essential for 
 - **Expert Support**: Access tips and advice from experienced educators.
 - **Printable Worksheets**: Extra practice for offline learning.
 
-## How to Use
-
-1. **Visit the Website**: Go to [Learn Smart](https://rahil9.github.io/learn-smart/) to get started.
-2. **Create an Account**: Sign up for a free account to track your progress.
-3. **Explore Lessons**: Browse through our interactive lessons and start learning.
-4. **Play Games**: Engage with fun games that reinforce phonics concepts.
-5. **Print Worksheets**: Download and print worksheets for extra practice.
-
 ## Getting Started
 
-To get started with Learn Smart, simply visit our website and explore the various resources available. Whether you're a parent looking to support your child's learning or an educator seeking additional resources, Learn Smart has something for everyone.
+To get started with Learn Smart, simply visit [Learn Smart](https://rahil9.github.io/learn-smart/) and explore the various resources available. Whether you're a parent looking to support your child's learning or an educator seeking additional resources, Learn Smart has something for everyone.
 
 ## Contributing
 
